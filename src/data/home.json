@@ -1,0 +1,23 @@
+{
+  "site_name": "cora•agency",
+  "header_title": "WE DO CREATIVE FOOD THINKS",
+  "first_letter_only": true,
+  "email": "coraagency@gmail.com",
+  "social": [
+    {
+      "channel": "behance",
+      "handle": "nichlaswa",
+      "link_text": "be"
+    },
+    {
+      "channel": "instagram",
+      "handle": "its.nwa",
+      "link_text": "ig"
+    },
+    {
+      "channel": "github",
+      "handle": "itsnwa",
+      "link_text": "gh"
+    }
+  ]
+}
