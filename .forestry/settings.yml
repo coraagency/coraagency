@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
-webhook_url: 
+webhook_url: curl -X POST -d {} https://api.netlify.com/build_hooks/5fc82b9656db4520b6e3462c
 sections:
 - type: directory
   path: projects
