@@ -6,20 +6,7 @@
       class="name"
       :class="{ first: data.first_letter_only }"
     >
-      <span
-        class="word"
-        :class="{ 'first-line': index === 0 && multiLine }"
-        v-for="(word, index) in siteName"
-        :key="index"
-      >
-        <span class="first-letter" v-if="data.first_letter_only && word[0]">{{
-          word[0]
-        }}</span>
-        <span class="letter" v-if="data.first_letter_only">{{
-          word.slice(1)
-        }}</span>
-        <span v-if="!data.first_letter_only">{{ word }}</span>
-      </span>
+      cora.
     </g-link>
     <div class="contact">
       <a class="link" :href="`mailto:${data.email}`">say hi !</a>
